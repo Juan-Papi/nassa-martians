@@ -1,0 +1,45 @@
+{
+  "name": "orlp-orbital-recycling-learning-platform",
+  "version": "1.0.0",
+  "description": "An educational and simulation platform for space security and orbital recycling with AI integration",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process required for this MVP'",
+    "test": "echo 'No tests specified for this MVP'"
+  },
+  "keywords": [
+    "space",
+    "education",
+    "simulation",
+    "ai",
+    "nasa",
+    "orbital-recycling",
+    "space-security",
+    "learning-platform",
+    "gemini-ai",
+    "interactive",
+    "web-app"
+  ],
+  "author": "ORLP Development Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/orlp-platform.git"
+  },
+  "homepage": "https://your-org.github.io/orlp-platform",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
